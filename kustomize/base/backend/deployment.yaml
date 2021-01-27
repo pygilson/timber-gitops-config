@@ -11,7 +11,7 @@ spec:
     spec:
       containers:
       - name: timber-backend
-        image: docker.io/USERNAME/timber-backend:494862171d205bc9a1931177a73e6321d42b86b6
+        image: docker.io/pgilson13/timber-backend:494862171d205bc9a1931177a73e6321d42b86b6
         ports:
         - containerPort: 8080
         env:
